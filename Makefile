@@ -45,3 +45,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@ 
 049_product_of_two_matrices_with_func: 049_product_of_two_matrices_with_func.c
 	$(CC) $(CFLAGS) $^ -o $@ 
+051_swap_with_pointers: 051_swap_with_pointers.c
+	$(CC) $(CFLAGS) $^ -o $@ 
