@@ -61,3 +61,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@ 
 058_copy_string_without_strcpy: 058_copy_string_without_strcpy.c
 	$(CC) $(CFLAGS) $^ -o $@ 
+059_string_sort: 059_string_sort.c
+	$(CC) $(CFLAGS) $^ -o $@ 
