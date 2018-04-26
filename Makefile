@@ -57,3 +57,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@ 
 056_strlen: 056_strlen.c
 	$(CC) $(CFLAGS) $^ -o $@ 
+057_string_concatenation: 057_string_concatenation.c
+	$(CC) $(CFLAGS) $^ -o $@ 
