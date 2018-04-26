@@ -49,3 +49,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@ 
 052_maximum_with_calloc: 052_maximum_with_calloc.c
 	$(CC) $(CFLAGS) $^ -o $@ 
+053_count_char_frequency: 053_count_char_frequency.c
+	$(CC) $(CFLAGS) $^ -o $@ 
