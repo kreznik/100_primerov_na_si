@@ -55,3 +55,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@ 
 055_delete_all_characters_except_digits: 055_delete_all_characters_except_digits.c
 	$(CC) $(CFLAGS) $^ -o $@ 
+056_strlen: 056_strlen.c
+	$(CC) $(CFLAGS) $^ -o $@ 
