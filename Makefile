@@ -47,3 +47,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@ 
 051_swap_with_pointers: 051_swap_with_pointers.c
 	$(CC) $(CFLAGS) $^ -o $@ 
+052_maximum_with_calloc: 052_maximum_with_calloc.c
+	$(CC) $(CFLAGS) $^ -o $@ 
