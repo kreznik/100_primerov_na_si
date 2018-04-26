@@ -59,3 +59,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@ 
 057_string_concatenation: 057_string_concatenation.c
 	$(CC) $(CFLAGS) $^ -o $@ 
+058_copy_string_without_strcpy: 058_copy_string_without_strcpy.c
+	$(CC) $(CFLAGS) $^ -o $@ 
