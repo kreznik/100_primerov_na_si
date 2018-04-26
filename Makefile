@@ -51,3 +51,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@ 
 053_count_char_frequency: 053_count_char_frequency.c
 	$(CC) $(CFLAGS) $^ -o $@ 
+054_count_digits_and_spaces: 054_count_digits_and_spaces.c
+	$(CC) $(CFLAGS) $^ -o $@ 
