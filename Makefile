@@ -65,3 +65,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@ 
 060_student_in_structure: 060_student_in_structure.c
 	$(CC) $(CFLAGS) $^ -o $@
+061_add_two_structure: 061_add_two_structure.c
+	$(CC) $(CFLAGS) $^ -o $@
