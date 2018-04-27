@@ -67,3 +67,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@
 061_add_two_structure: 061_add_two_structure.c
 	$(CC) $(CFLAGS) $^ -o $@
+062_complex_number: 062_complex_number.c
+	$(CC) $(CFLAGS) $^ -o $@
