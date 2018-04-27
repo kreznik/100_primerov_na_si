@@ -69,3 +69,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@
 062_complex_number: 062_complex_number.c
 	$(CC) $(CFLAGS) $^ -o $@
+063_diff_time_with_structure: 063_diff_time_with_structure.c
+	$(CC) $(CFLAGS) $^ -o $@
