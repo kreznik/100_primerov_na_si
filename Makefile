@@ -63,3 +63,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@ 
 059_string_sort: 059_string_sort.c
 	$(CC) $(CFLAGS) $^ -o $@ 
+060_student_in_structure: 060_student_in_structure.c
+	$(CC) $(CFLAGS) $^ -o $@
