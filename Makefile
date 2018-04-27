@@ -71,3 +71,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@
 063_diff_time_with_structure: 063_diff_time_with_structure.c
 	$(CC) $(CFLAGS) $^ -o $@
+064_structures_and_heap: 064_structures_and_heap.c
+	$(CC) $(CFLAGS) $^ -o $@
