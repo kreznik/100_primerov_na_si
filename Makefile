@@ -77,3 +77,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@
 066_read_line_from_file: 066_read_line_from_file.c
 	$(CC) $(CFLAGS) $^ -o $@
+067_display_source_code: 067_display_source_code.c
+	$(CC) $(CFLAGS) $^ -o $@
