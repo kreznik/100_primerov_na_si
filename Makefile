@@ -75,3 +75,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@
 065_write_to_file: 065_write_to_file.c
 	$(CC) $(CFLAGS) $^ -o $@
+066_read_line_from_file: 066_read_line_from_file.c
+	$(CC) $(CFLAGS) $^ -o $@
