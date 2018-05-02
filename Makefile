@@ -73,3 +73,5 @@ CFLAGS = -Wall
 	$(CC) $(CFLAGS) $^ -o $@
 064_structures_and_heap: 064_structures_and_heap.c
 	$(CC) $(CFLAGS) $^ -o $@
+065_write_to_file: 065_write_to_file.c
+	$(CC) $(CFLAGS) $^ -o $@
